@@ -1,0 +1,465 @@
+.titanic{
+  float:none;
+}
+@font-face {
+  font-family: HeartBreakingBad;
+  src: url(../HeartBreakingBad.otf);
+}
+
+
+.site { 
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  padding: 0;
+}
+
+.chapeau {
+  font-style: italic;
+}
+
+.content {
+  flex: 1;
+}
+
+body {
+  font-family: "Gudea", sans-serif;
+  background-color: #fff;
+  color: #fff;
+}
+
+::-moz-selection {
+  background-color: #e8c045;
+  color: #fff;
+}
+
+::selection {
+  background-color: #e8c045;
+  color: #fff;
+}
+
+p,
+li,
+footer {
+  font-size: 120%;
+  line-height: 1.6;
+}
+
+nav {
+  font-size: 115%;
+}
+
+nav .fa {
+  margin-right: 5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Russo One", sans-serif;
+  text-transform: uppercase;
+}
+
+a,
+.btn {
+  transition: 0.15s;
+}
+
+.btn.btn-xl {
+  background-color: #e8c045;
+  color: #333;
+}
+
+.container-fluid:first-of-type {
+  margin-top: 50px;
+}
+
+.video-vide {
+  height: 100vh;
+  margin-bottom: 70px;
+}
+
+.video-vide-filter {
+  height: 100vh;
+  width: calc(100vw - 17px);
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.video-vide-description {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 60vw / 2);
+  height: 100vh;
+  width: 60vw;
+  margin: 40vh auto 0 auto;
+  text-align: center !important;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
+}
+
+@media (max-width: 1023px) {
+  .video-vide-description {
+    left: calc(50% - 90vw / 2);
+    width: 90vw;
+  }
+}
+
+.video-vide-description h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: #e8c045;
+}
+
+.video-vide-description p {
+  font-size: 23px;
+}
+
+@media (max-width: 991px) {
+  .video-vide-description p {
+    font-size: 18px;
+    margin-top: -10px;
+  }
+  .video-vide-description h1{
+    margin-top: -15px;
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .video-vide-description p {
+    font-size: 18px;
+    margin-top: -10px;
+  }
+  .video-vide-description h1{
+    margin-top: -25px;
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+}
+
+.btn-primary {
+  background-color: #e8c045;
+  color: #000;
+  border: none;
+  text-align: center;
+}
+
+.btn-primary:hover {
+  background-color: #f9d66c;
+  color: #000;
+}
+
+.btn-primary:active {
+  background-color: #d8b035 !important;
+  color: #000 !important;
+}
+
+.margin-top {
+  margin-top: 75px;
+}
+
+.navbar-brand {
+  width: 165px;
+  background-size: 80px;
+  background: url("../img/logo.png") no-repeat 0px;
+  margin-right: 30px;
+  margin-top: -3px;
+  background-size: 80%;
+  height: 82px;
+}
+
+
+footer {
+  padding: 25px 0;
+  margin-top: 0px;
+  text-align: center;
+  color: #aaa;
+  height: 90px;
+}
+
+footer ul.quicklinks {
+  margin-bottom: 0;
+}
+
+.footer-background {
+  background-color: #111;
+}
+ul.social-buttons {
+  margin-bottom: 0;
+}
+ul.social-buttons li a {
+  display: block;
+  background-color: #222222;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  color: white;
+  outline: none;
+  transition: all 0.3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+  transform: scale(1.15);
+  background-color: #e8c045;
+}
+
+section#contact{
+  margin-bottom: 40vh;
+}
+
+.dropdown-menu {
+  text-align: center;
+  min-width: 30px;
+  background-color: #333;
+  color: #fff;
+}
+
+.dropdown-menu a:hover,
+.dropdown-menu a:focus {
+  background-color: #444 !important;
+}
+
+h1,
+h2 {
+  color: #e8c045;
+}
+
+.img-rounded2{
+  position: relative;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.pls{
+  text-align: center;
+}
+
+
+
+.margintop1{
+  margin-top: 0px;
+}
+
+.copyright{
+  margin-top: 10px;
+}
+
+.presentation{
+  margin-top: 100px;
+}
+
+code {
+  background-color: #222;
+  color: #eee;
+}
+
+.scroll-down {
+  position: absolute;
+  top: 46vh;
+  left: calc(50% - 45px);
+  color: #e8c045;
+  padding: 30px;
+}
+
+.scroll-down:hover {
+  color: #fff;
+}
+
+.scroll-down:focus,
+.scroll-down:active {
+  color: #e8c045;
+}
+
+.titre1{
+  text-align: center;
+}
+
+.titre2{
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: -40px;
+}
+
+strong{
+  color:#e8c045;
+}
+
+.blog{
+  color:#e8c045;
+}
+
+a.blog:hover{
+  color:#F8D055;
+}
+.accueil{
+  background-color: #010;
+  color: #f1F1f1;
+}
+.univers{
+  height: 900px;
+  background-image: url("../img/univers.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+.texte-univers{
+  background-color: #010;
+  color: #f1F1f1;
+}
+.personnages{
+  background-color: #010;
+  color: #F1F1F1;
+}
+.contact{
+  height: 740px;
+  background-image: url("../img/contact.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.header{
+  display: block;
+  height:auto;
+}
+
+.header-contenu{
+  height: 86vh;
+  max-height: 100%;
+  overflow: hidden;
+  z-index: 102;
+}
+#hamburger{
+position: absolute;
+bottom: -18px;
+right: 0px;
+height: 200px;
+z-index: 100;
+}
+#hamburger.fixed{
+  position: fixed;
+  top: 0;
+}
+video#bgvid {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url(../bg.png) no-repeat;
+  background-size: cover;
+}
+
+.contenu-texte {
+  align-content: center;
+  text-align: center;
+}
+
+.contenu-texte p {
+  text-align: justify;
+  color: #f1F1f1;
+}
+
+.texte-univers p{
+  color: white;
+  text-align: justify;
+  font-size: 120%;
+  line-height: 1.6;
+}
+.navbar{
+  background-color: transparent!important;
+  background: transparent!important;
+  border-width: 0px;
+  color: white;
+  margin-top: 10px;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+  color: white!important;
+}
+
+.carousel-indicators li {
+  width: 21px;
+  height: 21px;
+}
+
+.carousel-indicators .active {
+  width: 21px;
+  height: 21px;
+}
+h1,h2,h3,h4{
+  font-family: "Open Sans", sans-serif;
+}
+
+.accueil p{
+  font-size: 110%;
+  line-height: 1.4;
+}
+h1, h2{
+  color: #42814a;
+}
+
+.heisen img:hover,
+.heisen img:focus,
+.heisen img:active {
+  transform: scale(1.15);
+}
+
+.heisen{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+  .contenu-texte p a{
+  color: white;
+}
+.contenu-texte p a:hover{
+  color: #42814a;
+}
+
+.pad-bot{
+  padding-bottom: 100px;
+}
+object{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 440px;
+}
+.navbar-nav {
+  float: left;
+  margin: 10px 0px 0px 0px;
+}
+
+footer{
+  background-color: #001100;
+}
+
+.container-fluid:first-of-type {
+  margin-top: 0px;
+}
+
+.social_icons{
+  text-align: center!important;
+  padding-bottom: 20px;
+}

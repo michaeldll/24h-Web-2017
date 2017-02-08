@@ -1,0 +1,43 @@
+body{
+	 background: white;
+	 font-family: 'Titillium Web', sans-serif;
+}
+
+form#contact{
+
+}  
+
+
+p#message,p#mail,p#objet{
+margin-right:10%;padding-left:10px; font-size: 12px; display:inline-block;
+}  
+
+
+p#message textarea{
+border:1px solid rgba(0, 0, 0, 0.18);
+border-radius: 3px;
+width: 80%;
+height: 2.5em;
+}  
+
+
+p#mail input,p#objet input{
+border:1px solid rgba(0, 0, 0, 0.18);
+border-radius: 3px;
+height: 20px;
+}  
+
+
+p#mail{
+	margin-bottom: opx;
+}
+
+
+p.envoyer{
+text-align:center; margin-top: 0px;
+}  
+
+
+p.envoyer input{
+
+} 

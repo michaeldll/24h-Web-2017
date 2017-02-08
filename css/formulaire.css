@@ -1,0 +1,64 @@
+html{
+	padding-left:3px;
+}
+
+body{
+	 background: white;
+	 font-family: 'Open Sans', sans-serif;
+
+}
+
+form#contact{
+
+}  
+
+p#mail{
+	padding-left: 63px;
+}
+
+p#message,p#mail,p#objet{
+font-size: 15px; display:inline-block;color: #154f3c;
+}  
+
+
+p#message textarea{
+border:3px solid #154f3c;
+border-radius: 3px;
+width: 86%;
+height: 10.5em;
+margin-top: 12px;
+}  
+
+
+p#mail input,p#objet input{
+border:3px solid #154f3c;
+border-radius: 3px;
+height: 7.5vh;
+margin-top: 12px;
+}  
+
+
+p#mail{
+	margin-bottom: opx;
+}
+
+
+p.envoyer{
+text-align:center; margin-top: 0px;
+}  
+
+
+p.envoyer input{
+background-color:#154f3c;
+color:white;
+border-radius: 4px;
+height:29px;
+width:107px;
+} 
+#centrage{
+	text-align: center;
+}
+
+p{
+	text-align: center;
+}
